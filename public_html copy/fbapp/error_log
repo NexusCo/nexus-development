@@ -1,0 +1,8 @@
+[13-Mar-2016 12:59:04 America/New_York] PHP Fatal error:  Uncaught Error: Class 'FacebookRequest' not found in /home/nngetnexus/public_html/fbapp/index.php:71
+Stack trace:
+#0 {main}
+  thrown in /home/nngetnexus/public_html/fbapp/index.php on line 71
+[13-Mar-2016 14:40:34 America/New_York] PHP Fatal error:  Uncaught Error: Class 'FacebookRequest' not found in /home/nngetnexus/public_html/fbapp/index.php:71
+Stack trace:
+#0 {main}
+  thrown in /home/nngetnexus/public_html/fbapp/index.php on line 71

@@ -1,0 +1,76 @@
+/*Changes the navigational bar colors*/
+
+.homenavbar {
+	margin-bottom: -5px;
+	background-color: #424242;
+}
+
+.homenavbar a {
+	color: #F5F5F5;
+}
+
+    /*Changes the color of nav pills*/
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+    text-decoration: none;
+    background-color: #616161;
+}
+
+.nav-pills .open>a, .nav-pills .open>a:active, .nav-pills .open>a:focus{
+	background-color: #616161;
+}
+
+/* Changes the vertical spacing on slides */
+
+.carousel-content {
+	margin-top: 130px;
+	margin-bottom: 100px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.carousel-image {
+	margin-bottom: -330px;
+}
+
+/* Changes position of content*/
+
+.first-header {
+	margin-bottom: -10px;
+}
+
+.second-header {
+	margin-left: 47px;
+}
+
+.carousel-button {
+	margin-left: 125px;
+	margin-top: 20px;
+}
+
+/* Signup Page */
+
+.signup-buttons {
+}
+
+.fb-button {
+	margin-top: 120px;
+	text-align: center;
+}
+
+.signup-content {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.first-line {
+	text-align: center;
+	margin-top: 100px;
+}
+.second-line {
+	text-align: center;
+	margin-top: 10px;
+}
+.third-line {
+	text-align: center;
+	margin-top: 4px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Signup For Nexus</title>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  </head>
+
+
+  <body>
+    <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1720928001495010";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+      <!--This Is the Top Navigation Box-->
+      <div class="nav">
+        <div class="container">
+          <ul class="pull-left">
+            <ul class="nav nav-pills">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">Search</a></li>
+            </ul>
+          </ul>
+          <ul class="pull-right">
+            <ul class="nav nav-pills">
+              <li><a href="#">Login</a></li>
+              <li><a href="signup.html">Sign Up</a></li>
+
+              <li>
+                <div class="dropdownmenu">
+                    <ul class="nav nav-pills">
+                      <li class="dropdown"> <a href=
+                      "#" data-toggle="dropdown">More <span class="caret"></span></a>
+
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#tab1">Help</a></li>
+                                <li><a href="#tab2">Support</a></li>
+                                <li><a href="#tab1">Contact Us</a></li>
+                                <li><a href="#Privacy Policy.html">Privacy Policy</a></li>
+                            </ul>
+
+                        </li>
+                    </ul>
+                  </div>
+              </li>
+
+            </ul>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="signup-content">
+        <div class="first-line">
+          <h1>Sign Up!</h1>
+        </div>
+
+        <div class="second-line">
+          Start with one of
+        </div>
+
+        <div class="third-line">
+          the following:
+        </div>
+
+        <div class="signup-buttons">
+          <div class="fb-button">
+            <fb:login-button size="xlarge" onlogin="Log.info.bind('onlogin callback')">
+              Login With Facebook
+          </div>
+        </div>
+
+      </div>
+
+
+
+  </body>
+          
+</html>

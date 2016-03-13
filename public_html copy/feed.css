@@ -1,0 +1,126 @@
+
+
+
+/* Feed Navbar */
+
+.feed-nav {
+	background-color: #FAFAFA;
+	margin-bottom: 10px;
+}
+
+	/* Feed Dropdown-menu*/
+
+		#container {
+		   display: flex;
+		   min-height: 100%;
+		}
+
+		.container h1 {
+			font-family: 'Open Sans', sans-serif;
+			text-align: center;
+			font-size: 20px;
+		}
+
+		.container a {
+			font-family: 'Open Sans', sans-serif;
+			text-decoration: none;
+		}
+
+		/* Hamburger Icon */
+			label {
+				transform: translate3d(0, 0, 0);
+				transition: all .5s;
+					position: absolute;
+					display: block;
+					width: 25%;
+					color: #303030;
+					top: 7px;
+					left: -25px;
+					font-size: 400%;
+					cursor: pointer;   
+			}
+
+		/* Menu */
+			.slide-menu {
+			   transform: translate3d(-100%, 0, 0);
+			   transition: all .5s;
+			   	   position: absolute;
+				   width: 25%;
+				   background: #303030;
+				   color: white;
+				   left: 0;
+				   height: 100%;
+			}
+
+			.menu a {
+			   display: block;
+			   color: #999999;
+			   font-size: 170%;
+			   padding: 14px;
+			}
+
+			.menu a:hover {
+			   color: white;
+			}
+
+
+		/* Invisible Checkbox */
+		input[type=checkbox] {
+		   position: absolute;
+		   opacity: 0;
+		}
+
+		input[type=checkbox]:checked ~ label {
+	       transform: translate3d(100%, 0, 0);
+	       position: absolute;
+		}
+
+		input[type=checkbox]:checked ~ .slide-menu {
+		   transform: translate3d(0, 0, 0);
+		}
+
+	/* User Profile */
+
+	.nexusprofile {
+		border-radius: 20px;
+		border: 4px #9E9E9E;
+		background-color: white;
+		height: 41px;
+		width: 43px;
+	}
+
+	.profilepill {
+		margin-left: 90%;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		border-radius: 30px;
+    	border: 4px #EEEEEE;
+    	background-color: #EEEEEE;
+    	padding: 8px; 
+    	width: 200px;
+    }
+
+    .profilepill p {
+		margin-left: 120%;
+		margin-top: -85%;
+		font-size: 150%;
+		font-family: 'Open Sans', sans-serif;
+		color: black;
+    }
+
+    /* Search */
+
+    .search {
+    	
+    }
+
+    /*SEARCH FORM*/
+		.search-form {
+    		border-radius: 30px 0px 0px 30px;
+    		/*border-radius:Top-left, Top-right, Bottom-right, Bottom-left;*/
+		}
+		/*to cange only one form and not all give unique class name like  class="search-form" */
+ 		.search-btn {
+   		 	border-radius: 0px 30px 30px 0px;
+    		cursor:pointer;
+		}
